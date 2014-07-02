@@ -1,0 +1,108 @@
+.test{
+	background-color: blue;
+}
+
+body{
+	background-color: rgba(214,214,214, 0.5);
+}
+
+/*@keyframes #fancy_header{
+	from { color:red; }
+	to { color: blue;}
+*/
+#fancy_header{
+	font-size: 300px;
+	animation: blinker 1.8s infinite alternate;
+	padding-top: 75px;
+
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+}
+
+#big_head_box{
+	background-color:red;
+	margin-bottom: 750px;
+}
+.hero-unit{
+	/*background-color: green;*/
+	margin-top:-40px;
+	border-radius: 20px;
+
+}
+
+#title{
+	text-align: center;
+	padding-top: 56px;
+}
+
+#story_choice{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: -40px;
+/*	background-color: red;*/
+}
+#choice1, #choice2, #choice3{
+
+	padding-left: 20px;
+}
+
+
+.sidebar_menu{
+	font-size:20px;
+	background-color: rgba(200,189,214, 0.3);
+	font-weight: 400;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom:200px;
+	border-radius: 6px;
+}
+
+.top4selection{
+	padding-top:30px;
+	padding-bottom:150px;
+}
+#choicea, #choiceb, #choicec{
+	/*margin-bottom: 30px;*/
+	/*background-color:red;*/
+	line-height: 80px;
+}
+#main_text_area{
+	margin-top: 30px;
+	/*background-color: red;*/
+}
+
+#body_section{
+	margin-top:40px;
+
+}
+
+
+#sub_button{
+	width: 130px;
+	/*text-align: left;*/
+	float: right;
+}
+
+p{
+	font-size: 16px;
+}
+
+
+
+/*hhhhhhhh*/
+
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+.this-will-not-be-read {
+   display: none !important;
+}
+

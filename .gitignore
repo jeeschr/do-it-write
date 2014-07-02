@@ -1,0 +1,6 @@
+*.pyc
+settings.py
+*~
+*.db
+*.json
+node_modules
