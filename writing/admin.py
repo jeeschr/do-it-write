@@ -1,13 +1,17 @@
 from django.contrib import admin
-from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
 
-from writing.models import Review
+from writing.models import *
 
-class ReviewAdmin(SummernoteModelAdmin):
+class TextAdmin(admin.ModelAdmin):
 	list_display = ('text', 'datetime')
-	print 'hi'
 
-admin.site.register(Review, ReviewAdmin)
+	class Media:
+		js=('/static/tiny_mce/tiny_mce.js', '/static/tiny_mce/textarea.js')
+
+admin.site.register(Review, TextAdmin)
+admin.site.register(Text, TextAdmin)
+admin.site.register(Character, TextAdmin)
+admin.site.register(Event, TextAdmin)
 
